@@ -462,27 +462,6 @@ s3 = boto3.client("s3")
 s3.upload_file("output/investors.csv", "my-bucket", "investors.csv")
 ```
 
----
-
-## 📈 Future Enhancements
-
-- [ ] Async scraping for 10x speedup
-- [ ] Redis caching layer
-- [ ] Streamlit dashboard
-- [ ] Database integration
-- [ ] GraphQL API
-- [ ] Email notifications
-- [ ] Scheduler (APScheduler)
-- [ ] Advanced ML-based deduplication
-
----
-
-## 📄 License
-
-MIT License - Feel free to use for commercial purposes.
-
----
-
 ## 👨‍💻 Developer Notes
 
 ### Adding New Scraper
@@ -511,4 +490,4 @@ Edit `pipeline/exporter.py` to add formats like JSON, Parquet, etc.
 
 ---
 
-**Built for production. Made for scale. Engineered for reliability.** 🚀
+
